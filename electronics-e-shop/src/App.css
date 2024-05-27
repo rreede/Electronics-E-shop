@@ -10,8 +10,12 @@ body {
   box-sizing: border-box;
 }
 
+h1,h2,h3 {
+  margin:0;padding:0;
+}
 
 header {
+  padding:25px;
   display:flex;
   margin-bottom:25px;
 }
@@ -26,14 +30,26 @@ main {
 }
 
 .wrapper {
-  width:600px;
+  width:800px;
   margin:0 auto;
 }
 
 .product {
   border-radius:13px;
-  width:250px;
+  width:200px;
   height:250px;
   border:1px solid var(--main-border-color);
 
+}
+
+main > wrapper {
+  display:flex;
+}
+
+.container {
+  display:flex;
+}
+
+.filter {
+  width:200px;
 }

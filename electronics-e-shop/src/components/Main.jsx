@@ -1,5 +1,6 @@
 import React from "react"
 import products from '../products'
+import Filter from './Filter'
 
 
 console.log(products)
@@ -24,9 +25,13 @@ export default function Main() {
     <>
     <main>
         <div className='wrapper'>
-            <div class='products-list'>
+
+            <div className='container'>
+            <Filter />
+            <div className='products-list'>
 
                 {mapped}
+                </div>
                 </div>
             
              
